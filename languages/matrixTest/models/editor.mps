@@ -39,19 +39,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="1YaFJhMVEYn">
-    <ref role="1XX52x" to="fazk:1YaFJhMVEX1" resolve="Matrix" />
-    <node concept="3F2HdR" id="1YaFJhMVEYt" role="2wV5jI">
-      <ref role="1NtTu8" to="fazk:1YaFJhMVEY9" resolve="rows" />
-      <node concept="3vyZuw" id="5yvqH2cYllO" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-      <node concept="2jF6I7" id="5yvqH2dbOCB" role="3F10Kt">
-        <property role="2jF6Ia" value="VERTICAL_COLLECTION" />
-      </node>
-      <node concept="fvoJi" id="1YaFJhMVEZs" role="2czzBx" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1YaFJhMVFcM">
     <ref role="1XX52x" to="fazk:1YaFJhMVEXj" resolve="MatrixRow" />
     <node concept="3F2HdR" id="1YaFJhMVFcO" role="2wV5jI">
@@ -62,6 +49,19 @@
         <property role="2jF6Ia" value="HORIZONTAL_COLLECTION" />
       </node>
       <node concept="fvoJi" id="1YaFJhMVFcW" role="2czzBx" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5A2qczaFR0K">
+    <ref role="1XX52x" to="fazk:1YaFJhMVEX1" resolve="Matrix" />
+    <node concept="3F2HdR" id="5A2qczaG0mo" role="2wV5jI">
+      <ref role="1NtTu8" to="fazk:1YaFJhMVEY9" resolve="rows" />
+      <node concept="3vyZuw" id="5yvqH2cYllO" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="2jF6I7" id="5yvqH2dbOCB" role="3F10Kt">
+        <property role="2jF6Ia" value="VERTICAL_COLLECTION" />
+      </node>
+      <node concept="fvoJi" id="5A2qczaG0ms" role="2czzBx" />
     </node>
   </node>
 </model>

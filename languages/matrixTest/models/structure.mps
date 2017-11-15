@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="5" />
-    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="3" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -72,8 +71,8 @@
     <node concept="1TJgyj" id="1YaFJhMVGf8" role="1TKVEi">
       <property role="IQ2ns" value="2272821326885340104" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="matrices" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="mymatrix" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1YaFJhMVEX1" resolve="Matrix" />
     </node>
     <node concept="PrWs8" id="1YaFJhMVLJM" role="PzmwI">

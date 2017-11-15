@@ -66,7 +66,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:2fe9eb5d-dc8a-48a4-a0f4-608b9f026012(matrixTest.structure)/2272821326885340103");
-    b.aggregate("matrices", 0x1f8aaef472eec3c8L).target(0xde0c68e0feb84120L, 0xb3030529bea9f26bL, 0x1f8aaef472eeaf41L).optional(true).ordered(true).multiple(true).origin("2272821326885340104").done();
+    b.aggregate("matrices", 0x1f8aaef472eec3c8L).target(0xde0c68e0feb84120L, 0xb3030529bea9f26bL, 0x1f8aaef472eeaf41L).optional(false).ordered(true).multiple(false).origin("2272821326885340104").done();
     return b.create();
   }
 }
